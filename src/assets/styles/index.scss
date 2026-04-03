@@ -1,0 +1,26 @@
+// 引入变量
+@import 'variables.scss';
+@import 'mixins.scss';
+
+// 引入Vant样式
+@import 'vant/lib/index.css';
+
+// 全局样式
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  background-color: $bg-color;
+  color: $text-primary;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+// 隐藏滚动条但保留滚动功能
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.hide-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}

@@ -1,0 +1,57 @@
+// 颜色 - 设计系统配色方案
+$primary-color: #2F80ED;
+$primary-light: #56CCF2;
+$primary-dark: #1C5DB6;
+
+$success-color: #10B981;
+$warning-color: #F59E0B;
+$danger-color: #EF4444;
+$info-color: #2F80ED;
+
+// 特殊用途颜色
+$like-color: #EF4444;
+$comment-color: #10B981;
+$nature-color: #22C55E;
+
+// 背景色
+$bg-color: #F5F7FA;
+$bg-card: #FFFFFF;
+$bg-color-dark: #E5E7EB;
+
+// 文字颜色
+$text-primary: #1F2937;
+$text-secondary: #6B7280;
+$text-light: #9CA3AF;
+$text-tertiary: #C4C7CC;
+
+// 向后兼容
+$text-color: $text-primary;
+$text-color-secondary: $text-secondary;
+$text-color-light: $text-light;
+
+// 边框
+$border-color: #ebedf0;
+$border-radius: 8px;
+
+// 间距
+$spacing-xs: 4px;
+$spacing-sm: 8px;
+$spacing-md: 16px;
+$spacing-lg: 24px;
+$spacing-xl: 32px;
+
+// 字体
+$font-size-xs: 10px;
+$font-size-sm: 12px;
+$font-size-md: 14px;
+$font-size-lg: 16px;
+$font-size-xl: 18px;
+
+// 阴影
+$shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.05);
+$shadow-md: 0 4px 6px rgba(0, 0, 0, 0.08);
+$shadow-lg: 0 8px 16px rgba(0, 0, 0, 0.12);
+
+// 过渡
+$transition-base: all 0.3s ease;
+$transition-fast: all 0.15s ease;
